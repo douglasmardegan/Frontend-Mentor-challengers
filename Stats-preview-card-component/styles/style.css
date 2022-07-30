@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400");
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  background-color: hsl(233, 47%, 7%);
+}
+
+/* Device design */
+@media only screen and (min-width: 375px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card_container {
+    width: 85%;
+    height: 85%;
+    border-radius: 0.75em;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .color_layer_image {
+    width: 100%;
+    height: 35%;
+    border-radius: 0.75em 0.75em 0 0;
+    background-color: hsl(277, 64%, 61%);
+  }
+
+  .image_header_mobile {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.75em 0.75em 0 0;
+    opacity: 0.35;
+  }
+
+  .image_header_desktop {
+    display: none;
+  }
+
+  .card_text_content {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .card_text_title {
+    width: 90%;
+    font-family: Inter;
+    font-size: 700;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+  }
+
+  .card_text_title span {
+    color: hsl(277, 64%, 61%);
+  }
+
+  .card_text_description {
+    width: 80%;
+    font-family: Inter;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+
+  .card_business_numbers {
+    width: 80%;
+    height: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .stat_headings {
+    margin: 0.25em;
+    font-family: Inter;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .card_business_numbers p {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+  }
+}
+
+/* Desktop design */
+@media only screen and (min-width: 1440px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card_container {
+    width: 80%;
+    height: 60%;
+    border-radius: 0.75em;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .color_layer_image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0.75em 0.75em 0;
+    background-color: hsl(277, 64%, 61%);
+  }
+
+  .image_header_mobile {
+    display: none;
+  }
+
+  .image_header_desktop {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0.75em 0.75em 0;
+    display: block;
+    opacity: 0.35;
+  }
+
+  .card_text_content {
+    width: 90%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .card_text_title {
+    width: 100%;
+    width: 70%;
+    font-family: Inter;
+    font-size: 700;
+    text-align: justify;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .card_text_title span {
+    color: hsl(277, 64%, 61%);
+  }
+
+  .card_text_description {
+    width: 70%;
+    font-family: Inter;
+    text-align: justify;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+
+  .card_business_numbers {
+    width: 80%;
+    height: 30%;
+    padding-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .stat_headings {
+    margin: 0.25em;
+    font-family: Inter;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .card_business_numbers p {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+  }
+}
