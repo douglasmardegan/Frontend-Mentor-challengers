@@ -17,7 +17,7 @@ body {
 }
 
 /* Device design */
-@media only screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
   body {
     display: flex;
     flex-direction: column;
@@ -112,7 +112,7 @@ body {
 }
 
 /* Desktop design */
-@media only screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   body {
     display: flex;
     flex-direction: column;
