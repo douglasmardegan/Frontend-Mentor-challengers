@@ -24,8 +24,10 @@ Users should be able to:
 
 ### Screenshot
 
+<div align="center">
 ![Mobile design](./screenshots/screenshot_mobile_design.png)
 ![Desktop design](./screenshots/screenshot_desktop_design.png)
+</div>
 
 ## My process
 
@@ -41,7 +43,7 @@ Users should be able to:
 
 - [W3Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)
 - [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
-- [Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
+- [Developer Mozilla - "Using Fetch"](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
 
 ## Author
 
