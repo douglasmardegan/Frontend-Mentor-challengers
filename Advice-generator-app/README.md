@@ -24,10 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-<div align="center">
 ![Mobile design](./screenshots/screenshot_mobile_design.png)
 ![Desktop design](./screenshots/screenshot_desktop_design.png)
-</div>
 
 ## My process
 
