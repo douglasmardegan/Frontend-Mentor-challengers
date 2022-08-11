@@ -24,8 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot mobile design](./screenshots/screenshot_mobile_design.png)
-![Screenshot design design](./screenshots/screenshot_desktop_design.png)
+#### Mobile design
+<img src="./screenshots/screenshot_mobile_design.png" width="400" height="1200">
+
+#### Desktop design
+<img src="./screenshots/screenshot_desktop_design.png" width="1000" height="650">
 
 ### Links
 
