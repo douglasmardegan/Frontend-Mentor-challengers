@@ -24,8 +24,9 @@
 html,
 body {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
+  padding-block: 2rem;
   font-family: "Lexend Deca", sans-serif;
   font-size: 62.5%;
   background-color: var(--very_light_gray);
@@ -75,7 +76,6 @@ body {
 
   main {
     width: 85vw;
-    height: 100vh;
     border-radius: 0.75rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -86,21 +86,21 @@ body {
 
   .car_type_title {
     font-family: "Big Shoulders Display", sans-serif;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: 700;
     color: var(--very_light_gray);
     text-transform: uppercase;
   }
 
   .car_type_paragraph {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     color: var(--transparent_white);
     text-align: justify;
   }
 
   .sedan_car_type_container {
     height: 65vh;
-    padding: 2.5rem;
+    padding: 3.5rem;
     background-color: var(--bright_orange);
     border-radius: 0.75rem 0.75rem 0 0;
     display: grid;
@@ -112,7 +112,7 @@ body {
 
   .suv_car_type_container {
     height: 65vh;
-    padding: 2.5rem;
+    padding: 3.5rem;
     background-color: var(--dark_cyan);
     display: grid;
     grid-template-columns: 1fr;
@@ -123,7 +123,7 @@ body {
 
   .luxury_car_type_container {
     height: 65vh;
-    padding: 2.5rem;
+    padding: 3.5rem;
     background-color: var(--very_dark_cyan);
     border-radius: 0 0 0.75rem 0.75rem;
     display: grid;
@@ -149,7 +149,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 90rem) {
+@media only screen and (min-width: 50rem) {
   body {
     display: flex;
     flex-direction: row;
@@ -158,8 +158,7 @@ body {
   }
 
   main {
-    width: 80vw;
-    height: 100vh;
+    width: 85vw;
     border-radius: 0.75rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -219,12 +218,12 @@ body {
 
   img {
     width: 6.5rem;
-    height: auto;
   }
 
   button {
     width: 16.5rem;
     height: 5.5rem;
+    margin-top: 2.5rem;
     font-size: 1.75rem;
     font-weight: 700;
     border-style: none;
