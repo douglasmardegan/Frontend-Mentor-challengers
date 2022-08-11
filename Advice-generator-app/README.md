@@ -46,7 +46,7 @@ Users should be able to:
 ## Author
 
 - Github - [@douglasmardegan](https://github.com/douglasmardegan)
-- Frontend Mentor - [@douglasmardegan](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@douglasmardegan](https://www.frontendmentor.io/profile/douglasmardegan)
 
 
 
