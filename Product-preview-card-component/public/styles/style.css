@@ -210,10 +210,10 @@ body {
 
   .perfume_product_description {
     width: 25vw;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
     color: var(--Dark-grayish-blue);
-    line-height: 3.25rem;
+    line-height: 2.75rem;
     text-align: justify;
   }
 
@@ -227,14 +227,14 @@ body {
   .perfume_product_price > span {
     margin-right: 2.5rem;
     font-family: "Fraunces", sans-serif;
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: var(--Dark-cyan);
     text-decoration: none;
   }
 
   .perfume_product_price > p {
     font-family: "Fraunces", sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--Dark-grayish-blue);
     text-decoration: line-through;
