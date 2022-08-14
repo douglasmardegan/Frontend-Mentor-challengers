@@ -192,8 +192,8 @@ body {
 
   .type_product_name {
     width: 25vw;
-    font-size: 1.75rem;
-    font-weight: 550;
+    font-size: 1.5rem;
+    font-weight: 600;
     color: var(--Dark-grayish-blue);
     letter-spacing: 0.75rem;
     text-transform: uppercase;
@@ -203,17 +203,16 @@ body {
   .perfume_product_title {
     width: 25vw;
     font-family: "Fraunces", sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: black;
     text-align: center;
   }
 
   .perfume_product_description {
     width: 25vw;
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 1.75rem;
     color: var(--Dark-grayish-blue);
-    line-height: 2.75rem;
+    line-height: 2.5rem;
     text-align: justify;
   }
 
