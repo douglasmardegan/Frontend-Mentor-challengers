@@ -32,7 +32,6 @@ body {
 @media only screen and (min-width: 23.438rem) and (max-width: 50rem) {
   body {
     min-height: 100vh;
-    height: 100vh;
     padding-block: 2rem;
     display: flex;
     flex-direction: column;
@@ -41,18 +40,23 @@ body {
   }
 
   main {
-    width: 90vw;
+    max-width: 365px;
+    height: auto;
+    max-height: 90%;
     border-radius: 0.75rem;
     background-color: var(--White);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 1.5rem;
   }
 
   .perfume_product_img_mobile {
-    width: 90vw;
+    max-width: 100%;
     border-radius: 0.75rem 0.75rem 0 0;
+    display: block;
   }
 
   .perfume_product_img_desktop {
@@ -60,9 +64,8 @@ body {
   }
 
   .box_product_informations {
-    width: 80vw;
-    height: 50vh;
-    margin: 1.25rem;
+    max-width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -71,7 +74,7 @@ body {
 
   .type_product_name {
     width: 80vw;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--Dark-grayish-blue);
     letter-spacing: 0.5rem;
@@ -80,9 +83,9 @@ body {
   }
 
   .perfume_product_title {
-    width: 80vw;
+    min-width: 80vw;
     font-family: "Fraunces", sans-serif;
-    font-size: 3rem;
+    font-size: 2.75rem;
     color: black;
     line-height: 2.75rem;
     text-align: center;
@@ -90,8 +93,8 @@ body {
 
   .perfume_product_description {
     width: 80vw;
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 500;
     color: var(--Dark-grayish-blue);
     line-height: 2rem;
     text-align: justify;
@@ -152,7 +155,6 @@ body {
 @media only screen and (min-width: 50rem) {
   body {
     min-height: 100vh;
-    height: 100vh;
     padding-block: 2rem;
     display: flex;
     justify-content: center;
@@ -160,12 +162,13 @@ body {
   }
 
   main {
-    width: 60vw;
-    height: 60vh;
+    max-width: 900px;
+    height: auto;
     border-radius: 0.75rem;
     background-color: var(--White);
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     justify-content: space-evenly;
     align-items: center;
   }
@@ -175,15 +178,15 @@ body {
   }
 
   .perfume_product_img_desktop {
-    width: 30vw;
-    height: 60vh;
+    max-width: 100%;
+    height: auto;
     border-radius: 0.75rem 0 0 0.75rem;
+    display: block;
   }
 
   .box_product_informations {
-    width: 30vw;
-    height: 60vh;
-    padding: 2rem;
+    max-width: 450px;
+    height: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -192,8 +195,8 @@ body {
 
   .type_product_name {
     width: 25vw;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 500;
     color: var(--Dark-grayish-blue);
     letter-spacing: 0.75rem;
     text-transform: uppercase;
@@ -203,16 +206,17 @@ body {
   .perfume_product_title {
     width: 25vw;
     font-family: "Fraunces", sans-serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: black;
     text-align: center;
   }
 
   .perfume_product_description {
     width: 25vw;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
+    font-weight: 500;
     color: var(--Dark-grayish-blue);
-    line-height: 2.5rem;
+    line-height: 3.5rem;
     text-align: justify;
   }
 
@@ -224,16 +228,16 @@ body {
   }
 
   .perfume_product_price > span {
-    margin-right: 2.5rem;
+    margin-right: 3.5rem;
     font-family: "Fraunces", sans-serif;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: var(--Dark-cyan);
     text-decoration: none;
   }
 
   .perfume_product_price > p {
     font-family: "Fraunces", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 600;
     color: var(--Dark-grayish-blue);
     text-decoration: line-through;
@@ -241,7 +245,8 @@ body {
 
   button {
     width: 25vw;
-    height: 7.5vh;
+    height: 8.5vh;
+    max-height: 9.5vh;
     background-color: var(--Dark-cyan);
     font-weight: 700;
     border-radius: 0.75rem;
